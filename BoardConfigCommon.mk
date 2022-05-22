@@ -58,6 +58,7 @@ BOARD_USES_ALSA_AUDIO := true
 TARGET_BOOTLOADER_BOARD_NAME := lahaina
 
 # Display
+SOONG_CONFIG_qtidisplay_udfps := true
 TARGET_GRALLOC_HANDLE_HAS_RESERVED_SIZE := true
 
 # Properties
