@@ -57,12 +57,16 @@
         <item>10</item>
     </integer-array>
 
-    <!-- Indicate available ColorDisplayManager.COLOR_MODE_xxx. -->
+    <!-- Vibrator pattern for a very short but reliable vibration for soft keyboard tap -->
+    <integer-array name="config_keyboardTapVibePattern">
+        <item>10</item>
+    </integer-array>
+
+    <!-- List supported color modes. -->
     <integer-array name="config_availableColorModes">
-        <item>0</item>
-        <item>256</item>
-        <item>258</item>
-        <item>259</item>
+        <item>0</item> <!-- COLOR_MODE_NATURAL -->
+        <item>1</item> <!-- COLOR_MODE_BOOSTED -->
+        <item>2</item> <!-- COLOR_MODE_SATURATED -->
     </integer-array>
 
     <!-- The following two arrays specify which color space to use for display composition when a
@@ -80,13 +84,11 @@
         <item>0</item> <!-- COLOR_MODE_NATURAL   -->
         <item>1</item> <!-- COLOR_MODE_BOOSTED   -->
         <item>2</item> <!-- COLOR_MODE_SATURATED -->
-        <item>3</item> <!-- COLOR_MODE_AUTOMATIC -->
     </integer-array>
     <integer-array name="config_displayCompositionColorSpaces">
-        <item>0</item> <!-- COLOR_MODE_DEFAULT    -->
-        <item>0</item> <!-- COLOR_MODE_DEFAULT    -->
-        <item>0</item> <!-- COLOR_MODE_DEFAULT    -->
         <item>9</item> <!-- COLOR_MODE_DISPLAY_P3 -->
+        <item>9</item> <!-- COLOR_MODE_DISPLAY_P3 -->
+        <item>0</item> <!-- COLOR_MODE_DEFAULT    -->
     </integer-array>
 
     <!-- Default list of files pinned by the Pinner Service -->
