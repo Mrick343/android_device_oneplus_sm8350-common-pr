@@ -65,9 +65,20 @@
          auto-brightness adjustment setting. -->
     <fraction name="config_autoBrightnessAdjustmentMaxGamma">150%</fraction>
 
+
     <!-- If true, the display will be shifted around in ambient mode. -->
     <bool name="config_enableBurnInProtection">true</bool>
     
     <!-- Doze: should the TYPE_PICK_UP_GESTURE sensor be used as a pulse signal. -->
     <bool name="config_dozePulsePickup">true</bool>
+
+
+    <!-- Parallel space blocklist -->
+    <string-array name="config_parallelSpaceBlocklist">
+        <item>com.dolby.daxservice</item>
+        <item>com.motorola.dolby.dolbyui</item>
+        <item>org.lineageos.settings.device</item>
+        <item>org.lineageos.device.DeviceSettings</item>
+    </string-array>
+
 </resources>
