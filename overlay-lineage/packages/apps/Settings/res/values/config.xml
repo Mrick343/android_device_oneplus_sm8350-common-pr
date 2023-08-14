@@ -11,4 +11,11 @@
     <!-- Dolby Atmos -->
     <string name="config_dolbyAtmosPackage" translatable="false">com.dolby.daxappui/com.dolby.daxappui.MainActivity</string>
 
+    
+    <!-- Battery Health -->
+    <string name="config_batteryCalculatedCapacity">/sys/class/oplus_chg/battery/battery_fcc</string>
+    <string name="config_batteryDesignCapacity">/sys/class/oplus_chg/battery/design_capacity</string>
+    <string name="config_batteryChargeCycles">/sys/class/oplus_chg/battery/battery_cc</string>
+    <bool name="config_supportBatteryHealth">true</bool>
+
 </resources>
