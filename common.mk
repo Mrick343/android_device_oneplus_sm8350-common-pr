@@ -324,6 +324,13 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.power-service.oplus-libperfmgr
 
+
+# Prebuilt packages
+PRODUCT_PACKAGES += \
+    MlkitBarcodeUI \
+    VisionBarcode \
+    QRCameraOverlay
+
 # QMI
 PRODUCT_PACKAGES += \
     libjson \
