@@ -2132,7 +2132,6 @@
         <boolean name="config_oplus_4g_pref_default" value="false"/>
         <int name="config_oplus_5g_pref_default" value="1"/>
         <int name="carrier_oplus_auto_nr_mode" value="3"/>
-        <boolean name="vonr_enabled_bool" value="false"/>
         <boolean name="vonr_setting_visibility_bool" value="true"/>
         <boolean name="oplus_carrier_call_disable_endc" value="true"/>
         <!-- Do not allow 5G NSA on Jio -->
