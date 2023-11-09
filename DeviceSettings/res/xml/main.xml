@@ -56,7 +56,7 @@
         android:key="touchpanel"
         android:title="@string/touchpanel_title">
 
-        <SwitchPreference
+       <!--SwitchPreference
             android:key="edge_touch"
             android:icon="@drawable/ic_edge_touch"
             android:summary="@string/edge_touch_summary"
@@ -67,7 +67,7 @@
             android:icon="@drawable/ic_info_outline"
             android:summary="@string/edge_touch_warning"
             android:persistent="false"
-            android:selectable="false" />
+            android:selectable="false" /-->
 
         <SwitchPreference
             android:key="game_mode"
@@ -82,7 +82,7 @@
             android:selectable="false" />
     </PreferenceCategory>
 
-    <PreferenceCategory
+    <!--PreferenceCategory
         android:key="usb"
         android:title="@string/usb_title">
 
@@ -107,5 +107,5 @@
             android:min="0"
             settings:units=""
             android:defaultValue="3" />
-    </PreferenceCategory>
+    </PreferenceCategory-->
 </PreferenceScreen>
